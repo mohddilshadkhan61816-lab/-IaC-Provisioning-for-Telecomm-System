@@ -1,8 +1,11 @@
 IaC Provisioning for Telecomm System
 -------------------------------------------------------------------------------
 Subject: DevOps
+
 Project Type: Infrastructure as Code (IaC) Automation
+
 Group No: D6 - Group 08
+
 Project No: DO-19
 
 Project Description
@@ -17,20 +20,31 @@ The IaC Provisioning system acts as an automated deployment framework for teleco
 When a deployment is triggered:
 
 🔹 Infrastructure code is fetched from a Git repository.
+
 🔹 IaC scripts provision required compute resources.
+
 🔹 Docker environments or cloud instances are created.
+
 🔹 Required services and dependencies are installed automatically.
+
 🔹 Telecom applications are deployed inside containerized environments.
+
 🔹 The infrastructure is validated to ensure successful setup.
+
 🔹 This process enables zero-manual-intervention deployment and easy reproducibility.
 
 Objectives
 -------------------------------------------------------------------------------
 🔹 Automation: Replace manual server provisioning with script-based deployments.
+
 🔹 Consistency: Ensure identical infrastructure across all environments.
+
 🔹 Scalability: Allow telecom systems to scale dynamically when needed.
+
 🔹 Reliability: Minimize human errors and configuration drift.
+
 🔹 Reproducibility: Enable infrastructure recreation using version-controlled code.
+
 🔹 Efficiency: Reduce setup time and operational overhead.
 
 Proposed Tech Stack (Flexible)
@@ -70,7 +84,8 @@ Automatically installs required tools and services without manual intervention.
 
 Infrastructure can be scaled horizontally as telecom demand increases.
 
-📊 High-Level Workflow
+High-Level Workflow
+---------------------------------------
 Developer Push → Git Repository
         ↓
 CI/CD Pipeline Triggered
@@ -82,18 +97,28 @@ Provision Infrastructure (Local/Cloud)
 Deploy Telecom Services
         ↓
 System Ready for Use
-📈 Expected Benefits
 
-Faster infrastructure setup
+Expected Benefits
+---------------------------------------------------------------------------
+🔹Faster infrastructure setup
 
-Reduced manual errors
+🔹Reduced manual errors
 
-Consistent environments
+🔹Consistent environments
 
-Easier rollback and updates
+🔹Easier rollback and updates
 
-Improved scalability
+🔹Improved scalability
 
-🏁 Conclusion
+Group Members
+-------------------------------------------------------------------------------
+1. MOHD DILSHAD KHAN(EN22CS301602)
+2. PARIDHI GUPTA(EN22CS301683)
+3. NISHIT SHARMA(EN22CS301658)
+4. MOHD SUHAIL KHAN(EN22CS301604)
+5. NIRMAL KANT SHRIVASTAVA(EN22CS301656)
+
+Conclusion
+-------------------------------------------------------------------------------
 The IaC Provisioning for Telecomm System project demonstrates how Infrastructure as Code can modernize infrastructure management in telecom systems. By automating provisioning and deployment processes, the system ensures scalability, reliability, and operational efficiency.
 This project highlights the importance of treating infrastructure as version-controlled code, enabling repeatable and secure deployments for modern telecom environments.
