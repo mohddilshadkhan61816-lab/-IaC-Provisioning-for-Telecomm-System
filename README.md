@@ -49,19 +49,25 @@ Objectives
 
 Proposed Tech Stack (Flexible)
 -------------------------------------------------------------------------------
-     Category	                Tools/Technologies Used
+     Category	                    Tools/Technologies Used
      
-IaC & Orchestration	      -    Terraform, Kubernetes (K8s), Docker
+IaC & Orchestration	      -     Terraform, Kubernetes (K8s), Docker
 
-CI/CD & Automation	      -    GitHub Actions, Git
 
-Backend (Control Plane)	 -    Node.js, Express.js
+CI/CD & Automation	      -     GitHub Actions, Git
 
-Database & Auth	      -    MongoDB(Mongoose), JWT, Bcrypt
 
-Frontend/Templating	      -   EJS (Embedded JavaScript)
+Backend (Control Plane)	 -     Node.js, Express.js
 
-Environment Mgmt	      -   Dotenv, Cookie-parser, Multer
+
+Database & Auth	      -     MongoDB(Mongoose), JWT, Bcrypt
+
+
+Frontend/Templating	      -     EJS (Embedded JavaScript)
+
+
+Environment Mgmt	      -     Dotenv, Cookie-parser, Multer
+
 
 
 Key Features
