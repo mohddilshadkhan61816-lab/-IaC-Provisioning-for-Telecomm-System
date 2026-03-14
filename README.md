@@ -47,26 +47,16 @@ Objectives
 
 🔹 Efficiency: Reduce setup time and operational overhead.
 
-Proposed Tech Stack (Flexible)
--------------------------------------------------------------------------------
-     Category	                    Tools/Technologies Used
-     
-IaC & Orchestration	      -     Terraform, Kubernetes (K8s), Docker
+##  Tech Stack
 
-
-CI/CD & Automation	      -     GitHub Actions, Git
-
-
-Backend (Control Plane)	 -     Node.js, Express.js
-
-
-Database & Auth	      -     MongoDB(Mongoose), JWT, Bcrypt
-
-
-Frontend/Templating	      -     EJS (Embedded JavaScript)
-
-
-Environment Mgmt	      -     Dotenv, Cookie-parser, Multer
+| Category | Tools/Technologies Used |
+| :--- | :--- |
+| **IaC & Orchestration** | Terraform, Kubernetes (K8s), Docker |
+| **CI/CD & Automation** | GitHub Actions, Git |
+| **Backend (Control Plane)** | Node.js, Express.js |
+| **Database & Auth** | MongoDB (Mongoose), JWT, Bcrypt |
+| **Frontend/Templating** | EJS (Embedded JavaScript) |
+| **Environment Mgmt** | Dotenv, Cookie-parser, Multer |
 
 
 
